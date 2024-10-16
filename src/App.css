@@ -1,0 +1,32 @@
+.title {
+  color: #f00;
+  animation: rgb-colors 2s infinite;
+}
+
+.text1 {
+  color: #f00;
+  animation: rgb-colors 1.5s infinite;
+}
+
+.text2 {
+  color: #f00;
+  animation: rgb-colors 1.2s infinite;
+}
+
+@keyframes rgb-colors {
+  0% {
+    color: red;
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}
